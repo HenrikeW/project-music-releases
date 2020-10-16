@@ -1,12 +1,13 @@
 # Music Releases
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The project is a simple clone of Spotify showing a list of released albums and singles. I did it in pair programming together with Karan Mann, whose site you can see here: https://github.com/karanmann.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The clone was built using React and it is the first React-project I ever did. A json-file with data on new releases was provided so the task was to create a React structure using components and passing in parts of the provided data using props. 
+We also fulfilled specific design requirements: When hovering over an album cover, the cover gets darker and three white buttons show up in the middle of it. To achieve this, we used an overlay. If there are several artists who contributet to a release, all of them are shown and devided by a comma. 
+
+The site is repsonsive for mobile, tablet and desktop view and built with a mobile-first approach. 
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+The project is deployed on Netlify and can be viewed live here: https://spotify-music-clone.netlify.app/ 
